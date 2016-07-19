@@ -40,7 +40,7 @@ VER1=$(ls ../spotify*deb | cut -d _ -f 2)
 VERSION=$VER1.glibc$GLIBC_NEEDED
 echo $VERSION
 
-get_desktopintegration spotify
+#get_desktopintegration spotify
 
 # Go out of AppImage
 cd ..
